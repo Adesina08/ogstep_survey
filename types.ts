@@ -85,13 +85,6 @@ export interface SortState {
   direction: 'asc' | 'desc';
 }
 
-// FIX: Add FilterState type for analysis page.
-export interface FilterState {
-  dateRange: { start: string | null; end: string | null };
-  status: SubmissionStatus | 'All';
-  qcFlags: string[];
-}
-
 // The main object returned by the data hook
 export interface DashboardData {
   lastUpdated: string;
