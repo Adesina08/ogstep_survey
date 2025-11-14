@@ -1,4 +1,4 @@
-import React, from 'react';
+import React from 'react';
 
 const cn = (...classes: (string | undefined | null | false)[]) => classes.filter(Boolean).join(' ');
 
